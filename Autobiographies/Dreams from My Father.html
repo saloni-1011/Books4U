@@ -1,0 +1,59 @@
+
+<html>
+<head>
+<title>Dreams from My Father</title>
+<link rel="icon" href="https://booksyaari.com/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/d/r/dreams_from_my_father.jpg" type="image/x-icon">
+<link rel="stylesheet" href="shru.css">
+<script>
+function func1(){
+alert("Your response has been submited");
+}
+</script>
+</head>
+
+<body>
+<div id="mySidebar" class="sidebar" style="position:fixed;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#des">Description</a>
+  <a href="#read">Read</a>
+  <a href="#rev">Review</a>
+  <a href="#rat">Rating</a>
+</div>
+<div id="main">
+<button class="openbtn"  style="position:fixed;" onclick="openNav()">☰ Open</button>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+<div style="margin-left:25%;heigth:100%;">
+<h1 id="des">Dreams from My Father</h1>
+<p>-By Barack Obama</p>
+<image src="https://booksyaari.com/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/d/r/dreams_from_my_father.jpg" height="60%" width="25%">
+<i>
+<p>Dreams from My Father: A Story of Race and Inheritance (1995) is a memoir by Barack Obama, that explores the events of his early years in Honolulu and Chicago up until his entry into law school in 1988.
+</p><p>
+Obama originally published his memoir in 1995, when he was starting his political campaign for the Illinois Senate.He had been elected as the first African-American president of the Harvard Law Review in 1990.
+</p><p>
+According to The New York Times, Obama modeled Dreams from My Father on Ralph Ellison's novel Invisible Man.
+</p>
+</i> 
+<p>To read this book click-<a id="read" href="https://watanabeyukari.weblogs.jp/yousho/files/16262641-Dreams-From-My-Father-by-Barack-Obama-Excerpt.pdf" target="_blank">here</a>
+<h2 id="rat">Rating</h2>
+<p>3.9 out of 5 (205 Ratings)</p>
+<h2 id="rev">Add your review here</h2>
+<form>
+<label for="rating">Please Rate This Book</label><br>
+<input type="number" min="1" max="5"><br><textarea rows="5" cols="50" placeholder="Enter Your Review"></textarea><br><input type="button" value="Submit" onclick="func1();">
+</form>
+</div>
+</body>
+</html>

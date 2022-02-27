@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>The Scarlet Letter</title>
+<link rel="icon" href="https://m.media-amazon.com/images/I/51nH4PirA0L.jpg" type="image/x-icon">
+<link rel="stylesheet" href="shru.css">
+<script>
+function func1(){
+alert("Your response has been submited");
+}
+</script>
+</head>
+<body>
+<div id="mySidebar" class="sidebar" style="position:fixed;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#des">Description</a>
+  <a href="#read">Read</a>
+  <a href="#rev">Review</a>
+  <a href="#rat">Rating</a>
+</div>
+<div id="main">
+<button class="openbtn"  style="position:fixed;" onclick="openNav()">☰ Open Sidebar</button>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<div style="margin-left:25%;heigth:100%;">
+<H1 id="des">The Scarlet Letter</h1>
+<image src="https://m.media-amazon.com/images/I/51nH4PirA0L.jpg" height="60%" width="20%">
+<i><h4>Nathaniel Hawthorne’s 1850 historical novel The Scarlet Letter explores guilt, revenge, and redemption in colonial America. Hawthorne blends supernatural elements with psychological insight in his story of one woman’s public punishment for adultery. Explore a character analysis of Hester Prynne, plot summary, and important quotes.</h4>
+</i> 
+<p >To read this book,click<a id="read" href="https://www.gutenberg.org/files/25344/25344-h/25344-h.htm" target="_blank">-here</a>
+<h3><b>ADAPTATIONS</h3>
+<p>You can watch <i>THE SCARLET LETTER</i> here</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GwktKVIPiOg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h2 id="rat">Rating</h2>
+
+<p>4.1 out of 5 (192 Ratings)</p>
+<h2 id="rev">Add your review here</h2>
+<form>
+<label for="rating">Please Rate This Book</label><br>
+<input type="number" min="1" max="5"><br><textarea rows="5" cols="50" placeholder="Enter Your Review"></textarea><br><input type="button" value="Submit" onclick="func1();">
+</form>
+</div>
+
+</body>
+</html>

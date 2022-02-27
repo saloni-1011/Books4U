@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Girl with a Pearl Earring</title>
+<link rel="icon" href="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327197580l/2865.jpg" type="image/x-icon">
+<link rel="stylesheet" href="shru.css">
+<script>
+function func1(){
+alert("Your response has been submited");
+}
+</script>
+</head>
+<body>
+
+<div id="mySidebar" class="sidebar" style="position:fixed;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#des">Description</a>
+  <a href="#read">Read</a>
+  <a href="#rev">Review</a>
+  <a href="#rat">Rating</a>
+</div>
+<div id="main">
+<button class="openbtn"  style="position:fixed;" onclick="openNav()">☰ Open Sidebar</button>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<div style="margin-left:25%;heigth:100%;">
+<H1 id="des">Girl with a Pearl Earring</h1>
+<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327197580l/2865.jpg" height="60%" width="30%">
+<i><h4>Vermeer, one of his most well-known works. It depicts an imaginary young woman in exotic dress and a very large pearl earring. The work permanently resides in the Mauritshuis museum in The Hague.An observant and deliberate painter, Vermeer produced only 36 known works in his lifetime, while many of his contemporaries completed hundreds. Like his peers, he mostly depicted scenes of ordinary life, later called “genre” painting, often of women at daily tasks. Notable examples included Girl Reading a Letter at an Open Window (c. 1657) and The Music Lesson (c. 1665). He occasionally signed his paintings. While Girl with a Pearl Earring bears “IVMeer,” it is undated. Historians believe Vermeer painted the small piece (17.52 × 15.35 inches [44.5 × 39 cm]) around 1665, during the period in which he executed a group of paintings with a shared pearl motif.</h4>
+</i> 
+<p >To read this book click<a href="https://www.stagneshs.org/ourpages/auto/2010/9/17/67809570/Girl%20With%20a%20Pearl%20Earring.pdf" target="_blank">-here</a>
+<h3><b>ADAPTATIONS</h3>
+<p>You can watch <i> GIRL WITH A PEARL EARING </i> here</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KnSdQ42G-Ms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+<h2 id="rat">Rating</h2>
+<p>4.8 out of 5 (154 Ratings)</p>
+<h2 id="rev">Add your review here</h2>
+<form>
+<label for="rating">Please Rate This Book</label><br>
+<input type="number" min="1" max="5"><br><textarea rows="5" cols="50" placeholder="Enter Your Review"></textarea><br><input type="button" value="Submit" onclick="func1();">
+</form>
+
+</div>
+</body>
+</html>

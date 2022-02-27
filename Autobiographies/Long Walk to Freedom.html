@@ -1,0 +1,66 @@
+
+<html>
+<head>
+<title>Long Walk to Freedom</title>
+<link rel="icon" href="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327997342l/318431.jpg" type="image/x-icon">
+<link rel="stylesheet" href="shru.css">
+<script>
+function func1(){
+alert("Your response has been submited");
+}
+</script>
+</head>
+
+<body>
+<div id="mySidebar" class="sidebar" style="position:fixed;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#des">Description</a>
+  <a href="#read">Read</a>
+  <a href="#rev">Review</a>
+  <a href="#ad">Adaptations</a>
+  <a href="#rat">Rating</a>
+</div>
+<div id="main">
+<button class="openbtn"  style="position:fixed;" onclick="openNav()">☰ Open</button>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+<div style="margin-left:25%;heigth:100%;">
+<h1 id="des">Long Walk to Freedom </h1>
+<p>-By Nelson Mandela</p>
+<image src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327997342l/318431.jpg" height="60%" width="25%">
+<i>
+<p>Long Walk to Freedom is an autobiography written by South African President Nelson Mandela, and first published in 1994 by Little Brown & Co.</p>
+<p>The book profiles his early life, coming of age, education and 27 years in prison. Under the apartheid government, Mandela was regarded as a terrorist and jailed on the infamous Robben Island for his role as a leader of the then-outlawed ANC. He later achieved international recognition for his leadership as president in rebuilding the country's once segregated society.
+</p><p>
+Mandela dedicated his book to "my six children, Madiba and Makaziwe (my first daughter) who are now deceased, and to Makgatho, Makaziwe, Zenani and Zindzi, whose support and love I treasure; to my twenty-one grandchildren and three great-grandchildren who give me great pleasure; and to all my comrades, friends and fellow South Africans whom I serve and whose courage, determination and patriotism remain my source of inspiration."</p>
+
+</i> 
+<p>To read this book click-<a id="read" href="https://zelalemkibret.files.wordpress.com/2012/01/the-autobiography-of-nelson-mandela.pdf" target="_blank">here</a>
+<h3 id="ad"><b>ADAPTATIONS</h3>
+<h3>Movies</h3>
+<p>Long Walk to Freedom has been adapted into a film titled Mandela: Long Walk to Freedom directed by Justin Chadwick, written by William Nicholson, and produced by Anant Singh. Mandela personally awarded the film rights to the book to Singh's company some years before 2009. Singh believes that as the film is based on Mandela's own writing, it will be the "definitive" biopic of him.</p>
+<p>Full release happened on Christmas Day 2013 in the United States.</p>
+<h4>Mandela:Long Walk to Freedom (Trailer)</h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6V_lgsgKgKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2 id="rat">Rating</h2>
+<p>4.3 out of 5 (205 Ratings)</p>
+<h2 id="rev">Add your review here</h2>
+<form>
+<label for="rating">Please Rate This Book</label><br>
+<input type="number" min="1" max="5"><br><textarea rows="5" cols="50" placeholder="Enter Your Review"></textarea><br><input type="button" value="Submit" onclick="func1();">
+</form>
+</div>
+</body>
+</html>

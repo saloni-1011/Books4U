@@ -1,0 +1,64 @@
+
+<html>
+<head>
+<title> Autobiography of Mark Twain</title>
+<link rel="icon" href="https://pictures.abebooks.com/isbn/9781608427710-us.jpg" type="image/x-icon">
+<link rel="stylesheet" href="shru.css">
+<script>
+function func1(){
+alert("Your response has been submited");
+}
+</script>
+</head>
+
+<body>
+<div id="mySidebar" class="sidebar" style="position:fixed;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#des">Description</a>
+  <a href="#read">Read</a>
+  <a href="#rev">Review</a>
+  <a href="#rat">Rating</a>
+</div>
+<div id="main">
+<button class="openbtn"  style="position:fixed;" onclick="openNav()">☰ Open</button>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+<div style="margin-left:25%;heigth:100%;">
+<H1 id="des">Autobiography of Mark Twain</h1>
+<p>-By Mark Twain</p>
+<image src="https://pictures.abebooks.com/isbn/9781608427710-us.jpg" height="60%" width="25%">
+<i><p>
+The Autobiography of Mark Twain refers to a lengthy set of reminiscences, dictated, for the most part, in the last few years of American author Mark Twain's life and left in typescript and manuscript at his death.
+</p><p>
+The Autobiography comprises a rambling collection of anecdotes and ruminations rather than a conventional autobiography. Twain never compiled these writings and dictations into a publishable form in his lifetime. Despite indications from Twain that he did not want his autobiography to be published for a century, he serialised some Chapters from My Autobiography during his lifetime and various compilations were published during the 20th century.
+</p><p>
+ However it was not until 2010, in the 100th anniversary year of Twain's death, that the first volume of a comprehensive collection, compiled and edited by The Mark Twain Project of the Bancroft Library at University of California, Berkeley, was published.
+</p>
+<h3>VOLUME-1</h3>
+<h3 id="read">To read this book, click <a href="http://gutenberg.net.au/ebooks02/0200551h.html" target="_blank">here</a></h3>
+<h3>VOLUME-2</h3>
+<h3 id="read">To read this book, click <a href="http://gutenberg.net.au/ebooks02/0200561h.html" target="_blank">here</a></h3>
+<h3>VOLUME-3</h3>
+<h3 id="read">To read this book, click <a href="https://americanenglish.state.gov/files/ae/resource_files/mark_twain_autobiography.pdf" target="_blank">here</a></h3>
+</i> 
+<h2 id="rat">Rating</h2>
+<p>4.0 out of 5 </p>
+<h2 id="rev">Add your review here</h2>
+<form>
+<label for="rating">Please Rate This Book</label><br>
+<input type="number" min="1" max="5"><br><textarea rows="5" cols="50" placeholder="Enter Your Review"></textarea><br><input type="button" value="Submit" onclick="func1();">
+</form>
+</div>
+</body>
+</html>

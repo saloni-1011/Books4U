@@ -1,0 +1,43 @@
+body{
+	color:white;
+}
+#navbar{
+	background-color:white;
+	left:-14.5%;
+	transition:1s;
+}
+#navbar.active{
+	left:0%;
+}
+#navbar #tog{
+	position: absolute;
+	left:180px;
+	top:-10px;
+}
+a{
+	text-decoration:none;
+	color:yellow;
+}
+h1, h2, h3, h4, h5, h6{
+  font-style: italic;
+}
+#nav{
+	height:5%;
+	width:100%;
+	background-color:transparent;
+	margin-bottom:-15%;
+	border-color:transparent;
+	text-align:center;
+	display: inline-block;
+	cursor:pointer;
+	color: #003366;
+}
+#nav:hover{
+	color:white;
+}
+button{
+	background-color:transparent;
+	color:white;
+	border-color:transparent;
+	cursor:pointer;
+}

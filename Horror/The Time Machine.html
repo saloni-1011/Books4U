@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" href="data:image/jpeg;base64,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" type="image/x-icon">
+    <meta charset="UTF-8">
+    <title>The Time Machine</title>
+    <script src="srct.js"></script>
+    <style>
+        body{
+            background-color: #54123b;
+        }
+        nav
+        {
+            background-color: #c81912;
+            height: 80px;
+            width: 100%;
+            position: fixed;
+
+        }
+        .no{
+
+            text-decoration: none;
+            color: #000000;
+            margin-left: 40px;
+            margin-right: 40px;
+            font-size: 30px;
+            font-family: Optima;
+
+        }
+        .no:hover
+        {
+            background-color: #a8d3da;
+            color: #42240c;
+            font-size: 35px;
+        }
+        #fun
+        {
+            padding-top: 15px;
+
+        }
+        b
+        {
+            color: #cf7500;
+            font-size: 25px;
+        }
+        button{
+            background-color: #ff5722;
+            border-color: whitesmoke;
+            border-radius: 30px;
+            width: 90px;
+            height: 30px;
+            box-shadow: 0px 5px #dd2c00 ;
+        }
+        button:hover{
+
+            border-color: black;
+            background-color: whitesmoke;
+            color:#ff5722 ;
+
+
+
+        }
+        button:active{
+            background-color: whitesmoke;
+            box-shadow: 0 3px #ff4301;
+            transform: translateY(2px);
+        }
+        .fu{
+            color: #ff2a00;
+        }
+    </style>
+</head>
+<body >
+<div>
+    <nav>
+        <div align="center" id="fun">
+            <a href="#dis" class="no">Description</a>
+            <a href="#ch" class="no">Characters</a>
+            <a href="#bok" class="no">Read Book</a>
+            <a href="#rate" class="no">Rating</a>
+            <a href="#ads" class="no">Adaptations</a>
+            <a href="#v" class="no">Review</a>
+        </div>
+
+    </nav>
+</div>
+one
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="color:ghostwhite;margin-top:120px;font-size: 20px" id="dis">
+    <div align="center">
+        <h1 style="font-size:80px;color: #00f63c">The Time Machine </h1>
+        <img src="data:image/jpeg;base64,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">
+        <br>
+        <br>
+        <table align="center" style="width: 48%;margin-left: 40%">
+            <tr>
+                <td><b>Author:</b></td>
+                <td>H. G. Wells</td>
+            </tr>
+
+            <tr>
+                <td><b> Cover artist:</b></td>
+                <td>Ben Hardy</td>
+            </tr>
+            <tr>
+                <td><b>Country:</b></td>
+                <td>United Kingdom</td>
+            </tr>
+            <tr>
+                <td><b>Language:</b></td>
+                <td>English</td>
+            </tr>
+            <td><b>Genre:</b></td>
+            <td>Science fiction</td>
+            </tr>
+            <tr>
+                <td><b>Published:</b></td>
+                <td>1895</td>
+            </tr>
+            <tr>
+                <td><b>Publisher:</b></td>
+                <td>William Heinemann (UK)</td>
+            </tr>
+            <tr>
+                <td><b>Pages:</b></td>
+                <td>84 pp</td>
+            </tr>
+
+
+        </table>
+    </div>
+
+
+
+
+
+
+    <br>
+    <br>
+
+    <fieldset style="font-size:20px;background-color: #137411;border-style: dashed">
+        <legend style="background-color:#54123b ;font-size: 60px;"> Description</legend>
+        <p>The book's protagonist is a Victorian English scientist and gentleman inventor living in Richmond, Surrey, identified by<br>
+            a narrator simply as the Time Traveller. Similarly, with but one exception (a man named Filby) none of the dinner guests <br>
+            present are ever identified by name, but rather by profession (for example, "the Psychologist") or physical description <br>
+            (for example, "the Very Young Man").<br>
+            The narrator recounts the Traveller's lecture to his weekly dinner guests that time is simply a fourth dimension and demonstrates<br>
+            a tabletop model machine for travelling through the fourth dimension. He reveals that he has built a machine capable of carrying <br>
+            a person through time, and returns at dinner the following week to recount a remarkable tale, becoming the new narrator.. </p>
+        <a id="ch"></a>
+    </fieldset>
+    <br>
+    <br>
+
+    <br>
+    <br>
+    <fieldset style="background-color: #05dfd7;font-size: 20px;color: black;border-style: dotted;border-color: black">
+        <legend style="background-color:#54123b ;font-size: 60px;color: ghostwhite">Characters</legend>
+
+
+        <table width="60%" cellpadding="10px">
+            <tr>
+                <td><b class="fu">The Time Traveller:-</b></td>
+            </tr>
+            <tr>
+                <td>
+                    The Time Traveler is the protagonist of the story, and he takes over the narration from Chapter III until Chapter XII.
+                    He is a scientific man, schooled in contemporary theories about relativity and an able practitioner of the scientific method of
+                    hypothesis, observation, experimentation, and conclusion (although he freely admits that many of his early theories about the future
+                    world turn out to be wrong). He also begins his time traveling as an optimistic Social Darwinist, believing civilization will continually
+                    advance, but he quickly reverses his thoughts once he observes the Eloi and the Morlocks.
+                </td>
+
+            </tr>
+            <tr>
+                <td><b class="fu"> Weena:-</b></td>
+            </tr>
+            <tr>
+
+                <td>
+                    The only member of the Eloi the Time Traveler gets to know, Weena exhibits all the good and bad characteristics of this future race.
+                    The Eloi are evolved members of the upper class, but they are not more advanced beings, as Social Darwinists would believe. Rather, their
+                    utopian civilization has made them weak, physically and mentally; they are beautiful but lazy, frail, and stupid creatures who can do nothing
+                    for themselves.</td>
+
+            </tr>
+
+            <tr>
+                <td><b class="fu"> Morlocks</b></td>
+            </tr>
+            <tr>
+                <td>
+                    The antagonists in the novel, the ape-like Morlocks are the evolved members of the working class. Over the years, the Time Traveler
+                    theorizes, the working class has been continually pushed underground, and after a while it has evolved into a distinct species apart from
+                    the ruling class. Nocturnal and adept at climbing, the Morlocks have turned the tables and rule over their fairer Upperworld cousins,
+                    the Eloi, breeding them for food while they keep their society humming. They immediately spark the TT's loathing, most likely because he,
+                    a member of the Victorian upper class, has an ingrained disgust for the working class, though he comprehends their history as a Marxist
+                    class revolution. </td>
+            </tr>
+
+            <tr>
+                <td><b class="fu">Hillyer(The Narrator)</b></td>
+            </tr>
+            <tr>
+
+
+                <td>
+                    The narrator is a fairly unobtrusive character, especially since he steps out of the story from Chapter III to Chapter XII. However,
+                    he is the one member of the Time Traveler's dinner group who does not immediately discard the story of the future. By the novel's end he
+                    not only believes the TT's dystopian tale, but is willing to overlook the harsh prophecy of the future and embrace the present--and perhaps
+                    change the future in the process. In this sense, Wells uses the narrator as a stand-in for his reader; he warns us what will become if we do
+                    not change, and then implores us to change, as the narrator seems to do. </td>
+            </tr>
+
+
+
+        </table>
+        <a id="bok"></a>
+    </fieldset >
+    <br>
+    <br>
+    <fieldset id="" style="border-style: dotted;color: ghostwhite;background-color: #ca5116">
+        <legend style="font-size: 60px;background-color:#54123b "> Read Book</legend>
+        <h3>To Read <q>The Time machine</q> <a style="color: #79d70f;text-decoration: none" onclick="f1()" href="https://www.gradesaver.com/the-time-machine/study-guide/summary-chapters-1-2" > Click hear...........</a>
+            <a id="rate"></a></h3>
+
+    </fieldset>
+    <br>
+    <br>
+    <fieldset style="background-color: #1b1b2f;border-style: dashed" >
+        <legend style="background-color:#54123b;font-size: 60px;">Rating</legend>
+        <p>4.5 out of 5(115 Ratings)</p>
+        <p>To check review <a style="color: #fc7e2f;text-decoration: none" href="https://www.goodreads.com/book/show/2493.The_Time_Machine" onclick="f1()">Click here.........</a>
+            <a id="ads"></a></p>
+    </fieldset>
+    <br>
+    <br>
+
+    <fieldset style="background-color: #ff1e56">
+        <legend style="background-color:#54123b;font-size: 60px">Adaptations</legend>
+        <fieldset style="background-color:#ffacb7;color: black">
+            <legend style="background-color: #ff1e56;font-size: 40px">Movies</legend>
+            <p>The CBS radio anthology Escape adapted The Time Machine twice, in 1948 starring Jeff Corey, and again in 1950 starring Lawrence<br>
+                Dobkin as the traveller. A script adapted by Irving Ravetch was used in both episodes. The Time Traveller was named Dudley and was<br>
+                accompanied by his skeptical friend Fowler as they traveled to the year 100,080.<br>
+                In 1994, an audio drama was released on cassette and CD by Alien Voices, starring Leonard Nimoy as the Time Traveller (named John in this adaptation)<br>
+                and John de Lancie as David Filby. John de Lancie's children, Owen de Lancie and Keegan de Lancie, played the parts of the Eloi. The drama is<br>
+                approximately two hours long and is more faithful to the story than several of the film adaptations. Some changes are made to reflect modern <br>
+                language and knowledge of science...</p>
+        </fieldset>
+        <h4 style="font-size: 40px">The Time Machine </h4>
+        <iframe width="1200" height="600" src="https://www.youtube.com/embed/90T7iLuzFgg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p><a id="view"></a></p>
+    </fieldset>
+
+    <fieldset id="v" style="border-style: dotted">
+        <legend style="font-size: 60px"> Add Your Review</legend>
+        <p>Please rate the Book:</p>
+        <input type="number" max="10" min="1"><br>
+        <textarea rows="5" cols="50">Enter Your Review</textarea><br>
+        <button onclick="f()">
+            Click here
+        </button>
+
+    </fieldset>
+
+</div>
+</body>
+</html>
+

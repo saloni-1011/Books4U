@@ -1,0 +1,69 @@
+
+<html>
+<head>
+<title>The Story of My Life</title>
+<link rel="icon" href="https://kbimages1-a.akamaihd.net/38627112-d723-4166-9ff1-bd50d50f2850/1200/1200/False/the-story-of-my-life-118.jpg" type="image/x-icon">
+<link rel="stylesheet" href="shru.css">
+<script>
+function func1(){
+alert("Your response has been submited");
+}
+</script>
+</head>
+
+<body>
+<div id="mySidebar" class="sidebar" style="position:fixed;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#des">Description</a>
+  <a href="#read">Read</a>
+  <a href="#rev">Review</a>
+   <a href="#ad">Adaptations</a>
+  <a href="#rat">Rating</a>
+</div>
+<div id="main">
+<button class="openbtn"  style="position:fixed;" onclick="openNav()">☰ Open</button>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+<div style="margin-left:25%;heigth:100%;">
+<h1 id="des">The Story of My Life</h1>
+<p>-By Helen keller</p>
+
+<image src="https://kbimages1-a.akamaihd.net/38627112-d723-4166-9ff1-bd50d50f2850/1200/1200/False/the-story-of-my-life-118.jpg" height="60%" width="25%">
+<i>
+<p>
+The Story of My Life, first published in 1903, is Helen Keller's autobiography detailing her early life, especially her experiences with Anne Sullivan.
+</p><p>
+Portions of it were adapted by William Gibson for a 1957 Playhouse 90 production, a 1959 Broadway play, a 1962 Hollywood feature film, and the Indian film Black. The book is dedicated to inventor Alexander Graham Bell. The dedication reads, "To ALEXANDER GRAHAM BELL Who has taught the deaf to speak and enabled the listening ear to hear speech from the Atlantic to the Rockies, I dedicate this Story of My Life."
+</p><p>
+Keller first began to write The Story of My Life in 1902, when she was still a student at Radcliffe College. It was first published in the Ladies Home Journal in the same year as a series of installments. The following year, it was published by Doubleday, Page & Co. as a book. The book was well received.
+</p>
+</i> 
+<p>To read this book click-<a id="read" href="https://www.theartofhappiness.net/happiness-resources/free-happiness-ebooks/helenkeller.pdf" target="_blank">here</a>
+<h3 id="ad"><b>ADAPTATIONS</h3>
+<h3>Movie</h3>
+
+<h4>The Story of My Life (Full Movie)</h4>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/-3kqkHT3HzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<h2 id="rat">Rating</h2>
+<p>4.1 out of 5 </p>
+<h2 id="rev">Add your review here</h2>
+<form>
+<label for="rating">Please Rate This Book</label><br>
+<input type="number" min="1" max="5"><br><textarea rows="5" cols="50" placeholder="Enter Your Review"></textarea><br><input type="button" value="Submit" onclick="func1();">
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+
+<html>
+<head>
+<title> The Autobiography of Benjamin Franklin</title>
+<link rel="icon" href="https://sellercenter.nuriakenya.com/img/products/bna8-square-orig.jpg" type="image/x-icon">
+<link rel="stylesheet" href="shru.css">
+<script>
+function func1(){
+alert("Your response has been submited");
+}
+</script>
+</head>
+
+<body>
+<div id="mySidebar" class="sidebar" style="position:fixed;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#des">Description</a>
+  <a href="#read">Read</a>
+  <a href="#rev">Review</a>
+  <a href="#rat">Rating</a>
+</div>
+<div id="main">
+<button class="openbtn"  style="position:fixed;" onclick="openNav()">☰ Open</button>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+<div style="margin-left:25%;heigth:100%;">
+<h1 id="des">The Autobiography of Benjamin Franklin</h1>
+<p>-By Benjamin Franklin</p>
+<image src="https://sellercenter.nuriakenya.com/img/products/bna8-square-orig.jpg" height="60%" width="25%">
+<i>
+<p>The Autobiography of Benjamin Franklin is the traditional name for the unfinished record of his own life written by Benjamin Franklin from 1771 to 1790. However, Franklin himself appears to have called the work his Memoirs. Although it had a tortuous publication history after Franklin's death, this work has become one of the most famous and influential examples of an autobiography ever written.
+</p><p>Franklin's account of his life is divided into four parts, reflecting the different periods at which he wrote them. 
+</p>
+<h3 id="read">To read this book, click <a href="http://www.arvindguptatoys.com/arvindgupta/e-ben-franklin.pdf" target="_blank">here</a></h3>
+
+</i> 
+
+<h2 id="rat">Rating</h2>
+<p>3.8 out of 5 </p>
+<h2 id="rev">Add your review here</h2>
+<form>
+<label for="rating">Please Rate This Book</label><br>
+<input type="number" min="1" max="5"><br><textarea rows="5" cols="50" placeholder="Enter Your Review"></textarea><br><input type="button" value="Submit" onclick="func1();">
+</form>
+</div>
+</body>
+</html>

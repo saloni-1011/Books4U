@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+  <title>
+    The Alchemist
+  </title>
+  <link rel="icon" href="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466865542l/18144590._SY475_.jpg" type="image/x-icon">
+  <script type="text/javascript" src="books.js"></script>
+</head>
+<body style="background-image:url('https://wallpapercave.com/wp/VCf1lhA.jpg');background-size:100% 100%;">
+<div style="height:100%;width:15%;position:fixed;margin-left:-7px;margin-top:-12px;" id="navbar">
+ <button type="button" id="nav" onclick="window.location.href='#des'">Description</a><br>
+ <button type="button" id="nav" onclick="window.location.href='#lin'">Read Book</a><br>
+ <button type="button" id="nav" onclick="window.location.href='#rat'">Rating</a><br>
+ <button type="button" id="nav" onclick="window.location.href='#ad'">Adaptations</a><br>
+ <button type="button" id="nav" onclick="window.location.href='#rev'">Review</a><br>
+<div class="but">
+ <button type="button" id="tog" onclick="toggle();" style="height:40px;font-size:35px;margin-left:2%;margin-top:5%;"><b>☰<b></button>
+</div>
+</div>
+<div style="margin-left:17%;margin-top:-10px;">
+<h1>The Alchemist</h1>
+<p><b><i>-By Paulo Coelho</b></i></p>
+<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466865542l/18144590._SY475_.jpg" height="300"/>
+<h2 id="des">Description</h2>
+<p>Paulo Coelho's enchanting novel has inspired a devoted following around the world. This story, dazzling in its powerful simplicity and soul-stirring wisdom, is about an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried near the Pyramids. Along the way he meets a Gypsy woman, a man who calls himself king, and an alchemist, all of whom point Santiago in the direction of his quest. No one knows what the treasure is, or if Santiago will be able to surmount the obstacles in his path. But what starts out as a journey to find worldly goods turns into a discovery of the treasure found within. Lush, evocative, and deeply humane, the story of Santiago is an eternal testament to the transforming power of our dreams and the importance of listening to our hearts.
+</p>
+<h3 id="lin">To read this book, click <a href="https://archive.org/stream/TheAlchemist_410/TheAlchemist_djvu.txt" target="_blank">here</a></h3>
+<h2 id="rat">Rating</h2>
+<p>3.87 out of 5 (20,43,153 Ratings)</p>
+<h2 id="ad">Adaptations</h2>
+<p><b>There are no TV or Movie Adaptations for this book yet.</b></p>
+<h2 id="rev">Add Your Review</h2>
+<form><label for="rating">Please rate the Book:</label><br><input type="number" id="rating" name="rating" min="1" max="5" value="1"><br><textarea rows="5" cols="50" placeholder="Enter Your Review"></textarea><br><input type="button" value="Submit" onclick="func1();"></form>
+</div>
+</body>
+</html>

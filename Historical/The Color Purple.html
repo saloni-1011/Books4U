@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>The Color Purple</title>
+<link rel="icon" href="https://images-na.ssl-images-amazon.com/images/I/715Y5JD-w8L.jpg" type="image/x-icon">
+<link rel="stylesheet" href="shru.css">
+<script>
+function func1(){
+alert("Your response has been submited");
+}
+</script>
+</head>
+<body>
+<div id="mySidebar" class="sidebar" style="position:fixed;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#des">Description</a>
+  <a href="#read">Read</a>
+  <a href="#rev">Review</a>
+  <a href="#rat">Rating</a>
+</div>
+<div id="main">
+<button class="openbtn"  style="position:fixed;" onclick="openNav()">☰ Open Sidebar</button>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+<div style="margin-left:25%;heigth:100%;">
+
+<H1 id="des">The Color Purple</h1>
+<image src="https://images-na.ssl-images-amazon.com/images/I/715Y5JD-w8L.jpg" height="60%" width="20%">
+<i><h4>The Color Purple is a 1982 epistolary novel by American author Alice Walker which won the 1983 Pulitzer Prize for Fiction and the National Book Award for Fiction.It was later adapted into a film and musical of the same name.
+
+Taking place mostly in rural Georgia, the story focuses on the life of African-American women in the Southern United States in the 1930s, addressing numerous issues including their exceedingly low position in American social culture. The novel has been the frequent target of censors and appears on the American Library Association list of the 100 Most Frequently Challenged Books of 2000–2009 at number seventeen because of the sometimes explicit content, particularly in terms of violence.In 2003 the book was listed on the BBC's The Big Read poll of the UK's "best-loved novels."</h4>
+</i> 
+<p>To read This Book click-<a id="read" href="https://s3.amazonaws.com/scschoolfiles/112/the-color-purple-alice-walker.pdf" target="_blank">here</a>
+<h3><b>ADAPTATIONS</h3>
+<p>You can watch <i>THE BOOK THIEF</i> here</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lD5uPZzBr5c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h2 id="rat">Rating</h2>
+<p>4.3 out of 5 (182 Ratings)</p>
+<h2 id="rev">Add your review here</h2>
+<form>
+<label for="rating">Please Rate This Book</label><br>
+<input type="number" min="1" max="5"><br><textarea rows="5" cols="50" placeholder="Enter Your Review"></textarea><br><input type="button" value="Submit" onclick="func1();">
+</form>
+</div>
+
+</body>
+</html>

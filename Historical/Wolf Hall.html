@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Wolf Hall</title>
+<link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Wolf_Hall_cover.jpg/220px-Wolf_Hall_cover.jpg" type="image/x-icon">
+<link rel="stylesheet" href="shru.css">
+<script>
+function func1(){
+alert("Your response has been submited");
+}
+</script>
+</head>
+<body>
+<div id="mySidebar" class="sidebar" style="position:fixed;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+<a href="#des">Description</a>
+<a href="#read">Read</a>
+<a href="#rat">Rating</a>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script><a href="#rev">Review</a>
+</div>
+<div id="main">
+<button class="openbtn"  style="position:fixed;" onclick="openNav()">☰ Open Sidebar</button>
+</div>
+<div style="margin-left:25%;heigth:100%;">
+<H1 id="des">Wolf Hall</h1>
+<image src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Wolf_Hall_cover.jpg/220px-Wolf_Hall_cover.jpg" heigth="40%" width="30%">
+<i><h4>England in the 1520s is a heartbeat from disaster. If the king dies without a male heir, the country could be destroyed by civil war. Henry VIII wants to annul his marriage of twenty years and marry Anne Boleyn. The pope and most of Europe opposes him. Into this impasse steps Thomas Cromwell: a wholly original man, a charmer and a bully, both idealist and opportunist, astute in reading people, and implacable in his ambition. But Henry is volatile: one day tender, one day murderous. Cromwell helps him break the opposition, but what will be the price of his triumph?</h4>
+</i> 
+<p>To read this book,click<a id="read" href="https://www.bookspot.nl/images/inkijkpdf/9789056723620.pdf">-here</a>
+<h3><b>Adaptations<b></h3>
+<p>You can watch <i> Wolf Hall</i> series here</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL7ODauSWtNZmk6AmmaEq4tFPSL2Sda6hD" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<h2 id="rat">Rating</h2>
+<p>4.4 out of 5 (202 Ratings)</p>
+<h2 id="rev">Add your review here</h2>
+<form>
+<label for="rating">Please Rate This Book</label><br>
+<input type="number" min="1" max="5"><br><textarea rows="5" cols="50" placeholder="Enter Your Review"></textarea><br><input type="button" value="Submit" onclick="func1();">
+</form>
+</div>
+
+</body>
+</html>

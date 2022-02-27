@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>All the Light We Cannot See</title>
+<link rel="icon" href="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451445646l/18143977.jpg" type="image/x-icon">
+<link rel="stylesheet" href="shru.css">
+<script>
+function func1(){
+alert("Your response has been submited");
+}
+</script>
+</head>
+<body>
+
+<div id="mySidebar" class="sidebar" style="position:fixed;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#des">Description</a>
+  <a href="#read">Read</a>
+  <a href="#rev">Review</a>
+  <a href="#rat">Rating</a>
+</div>
+<div id="main">
+<button class="openbtn"  style="position:fixed;" onclick="openNav()">☰ Open Sidebar</button>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<div style="margin-left:25%;heigth:100%;">
+<H1>All the Light We Cannot See</h1>
+<image src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451445646l/18143977.jpg" height="300px" width="20%">
+<i><h4 id="des">This book is a work of fiction. Any references to historical events, real people or real places are
+used fictitiously. Other names, characters, places and events are products of the author’s imagination,
+and any resemblance to actual events or places or persons, living or dead, is entirely coincidental.
+All rights reserved under International and Pan-American Copyright Conventions. By payment of the
+required fees, you have been granted the non-exclusive, non-transferable right to access and read the
+text of this e-book on-screen. No part of this text may be reproduced, transmitted, down-loaded,
+decompiled, reverse engineered, or stored in or introduced into any information storage and retrieval
+system, in any form or by any means, whether electronic or mechanical, now known or hereinafter
+invented, without the express written permission of HarperCollins.</h4></i> 
+<h4>To read this book click<a id="read" href="http://ahhssummerreading.weebly.com/uploads/1/0/3/7/103700016/all_the_light_we_cannot_see.pdf"target="_blank">-here</a>
+<h3><b>ADAPTATIONS</h3>
+<p>You can Listen Audiobook of <i> ALL THE LIGHT WE CAN NOT SEE </i> here</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bPJsElw1gXI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+<h2 id="rat">Rating</h2>
+<p>4.7 out of 5 (126 Ratings)</p>
+<h2 id="rev">Add your review here</h2>
+<form>
+<label for="rating">Please Rate This Book</label><br>
+<input type="number" min="1" max="5"><br><textarea rows="5" cols="50" placeholder="Enter Your Review"></textarea><br><input type="button" value="Submit" onclick="func1();">
+</form>
+
+</div>
+
+</body>
+</html>

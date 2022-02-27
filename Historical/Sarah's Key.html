@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>Sarah’s Key</title>
+<link rel="icon" href="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438863728l/556602._SX318_.jpg" type="image/x-icon">
+<link rel="stylesheet" href="shru.css">
+<script>
+function func1(){
+alert("Your response has been submited");
+}
+</script>
+</head>
+
+<body>
+<div id="mySidebar" class="sidebar" style="position:fixed;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#des">Description</a>
+  <a href="#read">Read</a>
+  <a href="#rev">Review</a>
+  <a href="#rat">Rating</a>
+</div>
+<div id="main">
+<button class="openbtn"  style="position:fixed;" onclick="openNav()">☰ Open Sidebar</button>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+<div style="margin-left:25%;heigth:100%;">
+<H1 id="des">Sarah’s Key </h1>
+<image src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438863728l/556602._SX318_.jpg" height="60%" width="20%">
+<i><h4>
+Paris, July 1942: Sarah, a ten year-old girl, is brutally arrested with her family by the French police in the Vel' d'Hiv' roundup, but not before she locks her younger brother in a cupboard in the family's apartment, thinking that she will be back within a few hours.
+
+Paris, May 2002: On Vel' d'Hiv's 60th anniversary, journalist Julia Jarmond is asked to write an article about this black day in France's past. Through her contemporary investigation, she stumbles onto a trail of long-hidden family secrets that connect her to Sarah. Julia finds herself compelled to retrace the girl's ordeal, from that terrible term in the Vel d'Hiv', to the camps, and beyond. As she probes into Sarah's past, she begins to question her own place in France, and to reevaluate her marriage and her life..</h4>
+</i> 
+<p>To read this book click-<a id="read" href="https://www.pdfdrive.com/sarahs-key-e19206313.html" target="_blank">here</a>
+<h3><b>ADAPTATIONS</h3>
+<p>You can watch <i>SARAH'S KEY </i> here</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LYsMzJXaf-A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+<h2 id="rat">Rating</h2>
+<p>4.5 out of 5 (205 Ratings)</p>
+<h2 id="rev">Add your review here</h2>
+<form>
+<label for="rating">Please Rate This Book</label><br>
+<input type="number" min="1" max="5"><br><textarea rows="5" cols="50" placeholder="Enter Your Review"></textarea><br><input type="button" value="Submit" onclick="func1();">
+</form>
+</div>
+</body>
+</html>

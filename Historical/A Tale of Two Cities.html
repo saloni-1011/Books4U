@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>A Tale of Two Cities</title>
+<link rel="stylesheet" href="shru.css">
+<link rel="icon" href="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344922523l/1953.jpg" type="image/x-icon">
+<script>
+function func1(){
+alert("Your response has been submited");
+}
+</script>
+</head>
+<body>
+<div id="mySidebar" class="sidebar" style="position:fixed;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+<a href="#des">Description</a>
+<a href="#read">Read</a>
+<a href="#rat">Rating</a>
+<a href="#rev">Review</a>
+</div>
+<div id="main">
+<button class="openbtn"  style="position:fixed;" onclick="openNav()">☰ Open Sidebar</button>
+</div>
+<div style="margin-left:25%;heigth:100%;">
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<h1 id="des">A Tale of Two Cities</h1>
+<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344922523l/1953.jpg" height="60%" width="30%">
+<p><i><h4>A Tale of Two Cities is an 1859 historical novel by Charles Dickens, set in London and Paris before and during the French Revolution. The novel tells the story of the French Doctor Manette, his 18-year-long imprisonment in the Bastille in Paris and his release to live in London with his daughter Lucie, whom he had never met. The story is set against the conditions that led up to the French Revolution and the Reign of Terror.
+Dickens' best-known work of historical fiction, A Tale of Two Cities is regularly cited as the best-selling novel of all time. In 2003, the novel was ranked 63rd on the BBC's The Big Read poll. The novel has been adapted for film, television, radio, and the stage, and has continued to have an influence on popular culture.</h4>
+</i> </p>
+<H3>To read this book,click<a id="read" href="https://www.gutenberg.org/files/98/old/2city12p.pdf" target="_blank">-here</a></h3>
+<h3><b>Adaptations<b></h3>
+<p>You can watch <i> A TALE OF TWO Cities </i> here</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xTPwqeYzPaU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+<h2 id="rat">Rating</h2>
+<p>4.7 out of 5 (126 Ratings)</p>
+<h2 id="rev">Add your review here</h2>
+<form>
+<label for="rating">Please Rate This Book</label><br>
+<input type="number" min="1" max="5"><br><textarea rows="5" cols="50" placeholder="Enter Your Review"></textarea><br><input type="button" value="Submit" onclick="func1();">
+</form>
+</div>
+</body>
+</html>

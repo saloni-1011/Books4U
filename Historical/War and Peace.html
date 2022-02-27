@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>War and Peace</title>
+<link rel="icon" href="https://m.media-amazon.com/images/I/51wACYoBFrL.jpg" type="image/x-icon">
+<link rel="stylesheet" href="shru.css">
+<script>
+function func1(){
+alert("Your response has been submited");
+}
+</script>
+</head>
+<body>
+<div id="mySidebar" class="sidebar" style="position:fixed;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+<a href="#des">Description</a>
+<a href="#read">Read</a>
+<a href="#rat">Rating</a>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script><a href="#rev">Review</a>
+</div>
+<div id="main">
+<button class="openbtn"  style="position:fixed;" onclick="openNav()">☰ Open Sidebar</button>
+</div>
+<div style="margin-left:25%;heigth:100%;">
+
+<H1 id="des">War and Peace</h1>
+<img src="https://m.media-amazon.com/images/I/51wACYoBFrL.jpg" height="60%" width="30%">
+<i><h4>War and Peace broadly focuses on Napoleon’s invasion of Russia in 1812 and follows three of the most well-known characters in literature: Pierre Bezukhov, the illegitimate son of a count who is fighting for his inheritance and yearning for spiritual fulfillment; Prince Andrei Bolkonsky, who leaves his family behind to fight in the war against Napoleon; and Natasha Rostov, the beautiful young daughter of a nobleman who intrigues both men.
+
+A s Napoleon’s army invades, Tolstoy brilliantly follows characters from diverse backgrounds—peasants and nobility, civilians and soldiers—as they struggle with the problems unique to their era, their history, and their culture. And as the novel progresses, these characters transcend their specificity, becoming some of the most moving—and human—figures in world literature.</h4>
+</i> 
+<p>To read this book,click<a id="read" href="https://www.planetebook.com/free-ebooks/war-and-peace.pdf">-here</a>
+<H3>ADAPTATIONS</H3>
+<p>You can listen the audio of book here</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7SKwhKoijRo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<h2 id="rat">Rating</h2>
+<p>4.4 out of 5 (202 Ratings)</p>
+<h2 id="rev">Add your review here</h2>
+<form>
+<label for="rating">Please Rate This Book</label><br>
+<input type="number" min="1" max="5"><br><textarea rows="5" cols="50" placeholder="Enter Your Review"></textarea><br><input type="button" value="Submit" onclick="func1();">
+</form>
+</div>
+
+</body>
+</html>
